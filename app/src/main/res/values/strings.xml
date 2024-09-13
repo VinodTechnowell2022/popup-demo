@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PopupDemo</string>
+    <string name="add_rating">Add Rating</string>
+    <string name="_view_details">Add to Basket</string>
+    <string name="home">Home Screen</string>
+    <string name="_share">Share</string>
+    <string name="_logout">Logout</string>
+</resources>

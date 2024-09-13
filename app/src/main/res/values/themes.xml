@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PopupDemo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PopupDemo" parent="Base.Theme.PopupDemo" />
+
+
+    <style name="ThemeOverlay.SearchView" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Text color -->
+        <item name="android:editTextColor">@color/white</item>
+        <!-- Hint text color -->
+        <item name="android:textColorHint">@color/vlight_grey</item>
+        <item name="homeAsUpIndicator">@drawable/back_arrow</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+</resources>
